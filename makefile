@@ -15,5 +15,9 @@ linux Linux LINUX:
 	$(LINCC) $(SRC) $(BIN)
 
 
+doxygen Doxygen DOxygen DOXYGEN:
+	doxygen doc/Doxyfile
+
+
 NOTARGET:
 	printf "\nPlease specify a target when using 'make'; 'LINUX' or 'WINDOWS'\n"
