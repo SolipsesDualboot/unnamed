@@ -5,4 +5,4 @@
 ## Build on Linux
   ```make LINUX```
 ## Generate Code Documentation
-  ```make DOXYGEN
+  ```make DOXYGEN```
