@@ -1,9 +1,14 @@
 #include "local_lib.h"
-#include "stdio.h"
 
 
 int main()
 {
-    printf("Hellow World1");
+    char name[10];
+
+    for(;;)
+    {
+        get_input(name, CHAR_NAME_LIMIT);
+        printf("\n%s\n", name);
+    }
     return 0;
 }
