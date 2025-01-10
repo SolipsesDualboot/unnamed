@@ -1,5 +1,6 @@
 WINCC	=	i686-w64-mingw32-gcc
 LINCC	=	gcc
+CC	=	gcc
 SRC	=	src/main.c src/local_lib.c -Wall -Wextra
 BIN	=	-o bin/bin
 
@@ -8,11 +9,11 @@ default: NOTARGET
 
 
 windows Windows WINDOWS:
-	$(WINCC) $(SRC) $(BIN)
+	$(GCC) $(SRC) $(BIN)
 
 
 linux Linux LINUX:
-	$(LINCC) $(SRC) $(BIN)
+	$(GCC) $(SRC) $(BIN)
 
 
 doxygen Doxygen DOxygen DOXYGEN:
