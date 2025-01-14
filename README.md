@@ -17,7 +17,8 @@ The following are required in order to generate a functional build:
 
 ## Build
 ### Linux
-  ```make build docs```
+Run with ``sudo`` prefix if ``Permission Denied`` occurs
+  ```bash ./build.sh```
 
 
 ### Windows
