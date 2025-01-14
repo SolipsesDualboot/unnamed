@@ -1,4 +1,4 @@
-make build
+make build docs
 
 
 rm doc/refman.pdf
