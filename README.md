@@ -4,6 +4,7 @@
 ## Soft Dependencies
 * doxygen
 * graphviz
+* texlive (full)
 
 
 ## Build Dependencies
