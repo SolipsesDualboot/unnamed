@@ -15,4 +15,9 @@ The following are required in order to generate a functional build:
 
 
 ## Build
+### Linux
   ```make build docs```
+
+
+### Windows
+* [Use an MSYS2 environment and perform the #build step](https://www.msys2.org/)
