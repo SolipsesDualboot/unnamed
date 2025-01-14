@@ -20,4 +20,5 @@ The following are required in order to generate a functional build:
 
 
 ### Windows
-* [Use an MSYS2 environment and perform the #build step](https://www.msys2.org/)
+* Install an [MSYS2](https://www.msys2.org/) environment and use an MSYS2 shell
+* Follow the [#build](#build) steps
